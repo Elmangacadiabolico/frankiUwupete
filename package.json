@@ -1,0 +1,25 @@
+{
+  "name": "proyecto_biologico_nuclear",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "json": "^11.0.0",
+    "mongodb": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elmangacadiabolico/Proyecto_biologicoNuclear.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Elmangacadiabolico/Proyecto_biologicoNuclear/issues"
+  },
+  "homepage": "https://github.com/Elmangacadiabolico/Proyecto_biologicoNuclear#readme",
+  "description": ""
+}

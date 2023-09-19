@@ -1,0 +1,46 @@
+.container {
+    margin: 5px;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(0, 116, 58), 0 0 20px rgb(1, 117, 36), 0 0 30px rgb(64, 255, 166);
+    width: 90%;
+    max-width: 30rem;
+    min-height: 230px;
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        max-width: none;
+    }
+}
